@@ -1,4 +1,3 @@
-# C-Codings
 // Take Integer input and find the 1st and 2nd largest numbers
 #include<stdio.h>
 void largest(int arr[], int num) 
