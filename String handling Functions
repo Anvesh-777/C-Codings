@@ -1,0 +1,66 @@
+
+1. strlen(string_name) - Returns the length of the string	
+size_t strlen(const char *str);	
+	
+2. strcpy(destination, source) - Copies the source string to destination
+char *strcpy(char *dest, const char *src);
+
+3. strcat(first_string, second_string) - Concatenates two strings
+char *strcat(char *dest, const char *src);
+
+4. strcmp(first_string, second_string) - Compares two strings
+int strcmp(const char *str1, const char *str2);
+
+5. strrev(string) - Reverses the string
+char *strrev(char *str);
+
+6. strlwr(string) - Converts string to lowercase
+char *strlwr(char *str);
+
+7. strupr(string) - Converts string to uppercase
+char *strupr(char *str);
+
+8. strchr(string, character) - Finds first occurrence of a character in a string
+char *strchr(const char *str, int c);
+
+9. strrchr(string, character) - Finds last occurrence of a character in a string
+char *strrchr(const char *str, int c);
+
+10. strstr(string, substring) - Finds first occurrence of a substring in a string
+char *strstr(const char *haystack, const char *needle);
+
+11. strncat(destination, source, n) - Concatenates n characters from source to destination
+char *strncat(char *dest, const char *src, size_t n);
+
+12. strncpy(destination, source, n) - Copies n characters from source to destination
+char *strncpy(char *dest, const char *src, size_t n);
+
+13. strncmp(first_string, second_string, n) - Compares first n characters of two strings
+int strncmp(const char *str1, const char *str2, size_t n);
+
+14. strcoll(first_string, second_string) - Compares two strings according to the current locale
+int strcoll(const char *str1, const char *str2);
+
+15. strspn(string, accept) - Returns length of initial segment of string containing only characters from accept
+size_t strspn(const char *str1, const char *accept);
+
+16. strcspn(string, reject) - Returns length of initial segment of string containing no characters from reject
+size_t strcspn(const char *str1, const char *reject);
+
+17. strtok(string, delimiters) - Splits string into tokens based on delimiters
+char *strtok(char *str, const char *delim);
+
+18. memset(string, character, n) - Fills the first n bytes of string with a specified character
+void *memset(void *str, int c, size_t n);
+
+
+19. memmove(destination, source, n) - Copies n bytes from source to destination, handling overlap
+void *memmove(void *dest, const void *src, size_t n);
+
+20. memcpy(destination, source, n) - Copies n bytes from source to destination
+void *memcpy(void *dest, const void *src, size_t n);
+
+21. memcmp(first_string, second_string, n) - Compares first n bytes of two strings
+int memcmp(const void *str1, const void *str2, size_t n);
+
+
