@@ -1,0 +1,37 @@
+ mkdir anvesh_git
+   36  ls
+   37  cd anvesh_git/
+   38  ls
+   39  git log
+   40  git branch
+   41  git clone https://github.com/Anvesh-777/C-Codings.git
+   42  ls
+   43  cd C-Codings/
+   44  gitlog
+   45  git log
+   46  git branch
+   47  ls
+   48  git status
+   49  vim print_alternate_words.c
+   50  git status
+   51  git diff print_alternate_words.c
+   52  vim print_alternate_words.c
+   53  git status
+   54  git diff print_alternate_words.c
+   55  git status
+   56  git add print_alternate_words.c
+   57  git status
+   58  git diff print_alternate_words.c
+   59  git commit -m "Added comment about program"
+   60  git status
+   61  git push
+   62  git log
+   63  git branch
+   64  git push origin main
+   65  git branch -m master main
+   66  git push -u origin main
+   67  git push origin main --force
+   68   ls
+   69  cd ..
+   70  ls
+   71  history
