@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main4()
 {
+	//this isthe codetodisplay alternate word
     const char *str = "  abd   def   ght      ydr  udf    ffe  ";
-    int word_count = 0;
+    
+    int word_count=0;
     while (*str != '\0')
     {
         // if there space is available first only ...Skip leading spaces
