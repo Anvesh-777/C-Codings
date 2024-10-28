@@ -1,5 +1,6 @@
 // Take Integer input and find the 1st and 2nd largest numbers
 #include<stdio.h>
+#include<stdlib.h>
 void largest(int arr[], int num) 
 {
     int sl = arr[0], l = arr[0];
@@ -26,7 +27,7 @@ void largest(int arr[], int num)
     } 
  else
   {
-        printf("%d %d\n", sl, l);
+        printf("Second Largest=%d\nLargest=%d\n", sl, l);
     }
 }
 void input(int arr[],int num)
@@ -48,10 +49,10 @@ void print(int arr[],int num)
 }
 int main()
 {
-    int arr[10];
-    printf("enter the size\n");
+    printf("Enter number of elements you want to enter\n");
     int num;
     scanf("%d",&num);
+    int *arr=malloc(num*sizeof(int));
     input(arr,num);
     print(arr,num);
     largest(arr,num);
