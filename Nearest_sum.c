@@ -14,7 +14,7 @@ int main()
         {
             sum = arr[i] + arr[j];
             
-            if ((sum != target) && (sum < target))
+            if (sum < target)
             {
                     nearest_sum = sum;
                     nearest_i = i;
