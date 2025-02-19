@@ -176,3 +176,61 @@ bool isStrong(int num)
 	return (sum == num);
 }
 
+/**************************************************************************************************************************************
+1. isAnagram(int num1, int num2)
+✅ Checks if two numbers are anagrams (i.e., if they contain the same digits in any order).
+🔹 Input: isAnagram(123, 321)
+🔹 Output: true (because 123 and 321 have the same digits)
+🔹 Input: isAnagram(123, 456)
+🔹 Output: false (different digits)
+
+2. isArmstrong(int num)
+✅ Checks if a number is an Armstrong number (sum of its digits raised to the power of the number of digits equals the number itself).
+🔹 Input: isArmstrong(153)
+🔹 Output: true (because 1^3+5^3+3^3=153)
+🔹 Input: isArmstrong(123)
+🔹 Output: false
+
+3. factorial(int num)
+✅ Finds the factorial of a number (n!=n×(n−1)×...×1).
+🔹 Input: factorial(5)
+🔹 Output: 120 (because5!=5×4×3×2×1=120)
+🔹 Input: factorial(3)
+🔹 Output: 6
+
+4. fibonacciSeries(int num)
+✅ Prints the first num Fibonacci numbers.
+🔹 Input: fibonacciSeries(6)
+🔹 Output: 0 1 1 2 3 5
+🔹 Input: fibonacciSeries(10)
+🔹 Output: 0 1 1 2 3 5 8 13 21 34
+
+5. isPalindrome(int num)
+✅ Checks if a number is the same when reversed.
+🔹 Input: isPalindrome(121)
+🔹 Output: true
+🔹 Input: isPalindrome(123)
+🔹 Output: false
+
+6. isPerfect(int num)
+✅ Checks if a number is a Perfect Number (sum of its divisors excluding itself equals the number).
+🔹 Input: isPerfect(28)
+🔹 Output: true (because 1+2+4+7+14=28)
+🔹 Input: isPerfect(12)
+🔹 Output: false
+
+7. isPrime(int num)
+✅ Checks if a number is prime (only divisible by 1 and itself).
+🔹 Input: isPrime(7)
+🔹 Output: true
+🔹 Input: isPrime(10)
+🔹 Output: false
+
+8. isStrong(int num)
+✅ Checks if a number is a Strong Number (sum of the factorials of its digits equals the number).
+🔹 Input: isStrong(145)
+🔹 Output: true (because 1!+4!+5!=1+24+120=145)
+🔹 Input: isStrong(123)
+🔹 Output: false
+***************************************************************************************************************************************/
+
