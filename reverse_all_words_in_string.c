@@ -17,6 +17,19 @@ int main() {
     
     while (tok != NULL) {
         reverse(tok, tok + strlen(tok) - 1);
+        /*while (tok != NULL) 
+        {
+
+            int len = strlen(tok);
+            for (int i = 0; i < len / 2; i++) {
+                char temp = tok[i];
+                tok[i] = tok[len - i - 1];
+                tok[len - i - 1] = temp;
+            }
+            
+            printf("%s ", tok);
+            tok = strtok(NULL, del);
+        }*/
         printf("%s ", tok);
         tok = strtok(NULL, del);
     }
