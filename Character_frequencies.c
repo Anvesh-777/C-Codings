@@ -2,7 +2,7 @@
 
 int main() 
 {
-    char *inputString="JjjjjjjAaaaaiiiiI";
+    char *inputString="Jjjjj";
     int count[256] = {0};  
     int string_length=0,i=0;
     
